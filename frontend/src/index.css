@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  outline: none !important
+}
+
+select {
+  border: 1px solid #ddd;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3490dc;
+  border-color: #3490dc;
+}
+
+.card-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.side {
+  width: 400px;
+}
+.navbar-nav .dropdown-menu {
+  z-index: 100000;
+}
+
+.card-body {
+  overflow: auto;
+}
+
+.dropdown:not(.open) ul.dropdown-menu{
+  display:block !important;
+  opacity:0;
+  pointer-events:none;  
+} 
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
